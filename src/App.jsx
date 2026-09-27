@@ -1,4 +1,5 @@
 import "./App.css";
+import wedding from "./assets/wedding.png";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
             <h1>Andraž</h1>
           </div>
           <div className="invitation-icon">
-            <img src="/wedding.png" alt="Poročna prstana" />
+            <img src={wedding} alt="rings" />
           </div>
 
           <div className="eyebrow">vas vabiva na poročno praznovanje!</div>
